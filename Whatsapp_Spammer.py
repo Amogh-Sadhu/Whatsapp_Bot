@@ -1,6 +1,5 @@
 from selenium import webdriver
 from time import sleep
-#from selenium.webdriver.common import keys
 from selenium.common.exceptions import NoSuchElementException as se
 
 #Search Function for non-recent chats
@@ -30,7 +29,6 @@ driver.get("http://web.whatsapp.com")
 sleep(12)
 User = input("Enter the number you want to spam : ")
 Enter_msg = input("Enter the spam msg : ")
-#User = "Abhijeet Gaonkar"
 try:
     # Find user in recent chat
     Search_Box = driver.find_element_by_xpath('//span[@title="{}"]'.format(User))
