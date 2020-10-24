@@ -4,3 +4,4 @@ One is used to send a message to multiple people in your contact list and the ot
 The pre-requisties to run these python scripts are Python(Ofcourse), chrome webdriver if you are using chrome
 # https://chromedriver.chromium.org/downloads
 make sure you install the corect version of chromedriver which matches with your current chrome version
+
